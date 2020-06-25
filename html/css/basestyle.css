@@ -1,0 +1,135 @@
+@font-face {
+    font-family: kamaticarcade;
+    src: url("../fonts/karmatic_arcade/ka1.woff2") format("woff2"),
+         url("../fonts/karmatic_arcade/ka1.woff") format("woff");
+}
+
+
+body {
+    background: none !important;
+}
+
+#document {
+    height: 1259px;
+    width: 812px;
+    top: 15%;
+    left: 15%;
+    position: fixed;
+}
+
+#logo{
+    height: 220px;
+    width: 400px;
+    top: 20%;
+    left: 22%;
+    position: fixed;
+}
+
+#form {
+    font-size: 20px;
+    padding: 25px;
+    color: white;
+    position: fixed;
+    top: 65%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    height: 200px;
+    width: 350px;
+    border-radius: 7px;
+}
+
+#form button {
+    background-color: aliceblue;
+    padding: 12px;
+}
+
+#buttonlist {
+    padding: 12px;
+    display: block;
+    top: 45%;
+    left: 23%;
+    position: fixed;
+    margin: 4px 2px;
+    padding: 2px;
+    
+}
+
+#buttonlist button {
+    display: block;
+    margin: 6px 2px;
+    width: 350px;
+    height: 60px;
+    background-color: rgb(241, 215, 99);
+    border: 5px solid black;
+    border-radius: 1.5rem;
+    font-size: 30px;
+}
+
+
+input {
+    margin-bottom: 5px;
+    width: 100%;
+    font-size: 15px;
+    padding: 12px;
+}
+
+#signature {
+    width: 100px;
+    height: 100px;
+    top: 78%;
+    left: 20%;
+    position: fixed;
+}
+
+#signtext {
+    top: 86%;
+    left: 25%;
+    position: fixed;
+    font-family: kamaticarcade;
+}
+
+
+
+.report-select{
+    position: absolute;
+    top: 67%;
+    left: 32.5%;
+    transform: translate(-50%,-50%);
+}
+
+.report-select select{
+    background-color: rgb(241, 215, 99);
+    color: black;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    border: 5px solid black;
+    border-radius: 1.5rem;
+    appearance: button;
+    outline: none;
+}
+
+.report-select::before{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.1);
+    pointer-events: none;
+}
+
+.report-select:hover::before {
+    color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.report-select select option {
+    padding: 30px;
+}
