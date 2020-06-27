@@ -12,33 +12,33 @@ body {
 #document {
     height: 1259px;
     width: 812px;
-    top: 15%;
-    left: 15%;
+    top: 115px;
+    left: 263px;
     position: fixed;
 }
 
 #logo{
     height: 220px;
     width: 400px;
-    top: 20%;
-    left: 22%;
+    top: 165px;
+    left: 414px;
     position: fixed;
 }
 
-#form {
+#create_rapport {
     font-size: 20px;
     padding: 25px;
     color: white;
     position: fixed;
-    top: 65%;
-    left: 60%;
+    top: 350px;
+    left: 1200px;
     transform: translate(-50%, -50%);
     height: 200px;
     width: 350px;
     border-radius: 7px;
 }
 
-#form button {
+#create_rapport button {
     background-color: aliceblue;
     padding: 12px;
 }
@@ -46,8 +46,8 @@ body {
 #buttonlist {
     padding: 12px;
     display: block;
-    top: 45%;
-    left: 23%;
+    top: 419px;
+    left: 422px;
     position: fixed;
     margin: 4px 2px;
     padding: 2px;
@@ -66,7 +66,7 @@ body {
 }
 
 
-input {
+#create_rapport #create_date {
     margin-bottom: 5px;
     width: 100%;
     font-size: 15px;
@@ -76,14 +76,14 @@ input {
 #signature {
     width: 100px;
     height: 100px;
-    top: 78%;
-    left: 20%;
+    top: 767px;
+    left: 351px;
     position: fixed;
 }
 
 #signtext {
-    top: 86%;
-    left: 25%;
+    top: 847px;
+    left: 468px;
     position: fixed;
     font-family: kamaticarcade;
 }
@@ -92,8 +92,8 @@ input {
 
 .report-select{
     position: absolute;
-    top: 67%;
-    left: 32.5%;
+    top: 637px;
+    left: 541px;
     transform: translate(-50%,-50%);
 }
 
