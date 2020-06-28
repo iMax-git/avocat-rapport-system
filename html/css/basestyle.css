@@ -29,9 +29,6 @@ body {
     font-size: 20px;
     padding: 25px;
     color: white;
-    position: fixed;
-    top: 350px;
-    left: 1200px;
     transform: translate(-50%, -50%);
     height: 200px;
     width: 350px;
@@ -43,6 +40,153 @@ body {
     padding: 12px;
 }
 
+/*/////////////////////////////////////////*/
+/*          Placement des champs           */
+/*/////////////////////////////////////////*/
+
+#create_rapport #create_date{
+    width: 45%;
+    font-size: 15px;
+    padding: 5px;
+    left: 1158px;
+    top: 350px;
+    position: fixed;
+}
+
+#create_rapport #create_client_name{
+    width: 45%;
+    font-size: 15px;
+    padding: 5px;
+    left: 1158px;
+    top: 395px;
+    position: fixed;
+}
+
+#create_rapport #create_employer_name{
+    width: 52%;
+    font-size: 15px;
+    padding: 5px;
+    left: 1385px;
+    top: 395px;
+    position: fixed;
+}
+
+#create_rapport #create_compendium{
+    width: 109%;
+    font-size: 15px;
+    padding: 5px;
+    left: 1160px;
+    top: 460px;
+    position: fixed;
+    text-align: center;
+}
+
+#create_rapport #create_description{
+    width: 109%;
+    font-size: 15px;
+    padding: 5px;
+    left: 1160px;
+    top: 500px;
+    position: fixed;
+    text-align: start;
+    height: 250px;
+}
+
+#create_rapport #create_charge{
+    width: 52%;
+    font-size: 15px;
+    padding: 5px;
+    left: 1160px;
+    top: 764px;
+    position: fixed;
+}
+
+#create_rapport #create_peine{
+    width: 52%;
+    font-size: 15px;
+    padding: 5px;
+    left: 1389px;
+    top: 764px;
+    position: fixed;
+}
+
+#create_rapport #create_honoraire_estime{
+    width: 52%;
+    font-size: 15px;
+    padding: 5px;
+    left: 1160px;
+    top: 835px;
+    position: fixed;
+}
+
+#create_rapport #create_honoraire_percu{
+    width: 52%;
+    font-size: 15px;
+    padding: 5px;
+    left: 1389px;
+    top: 835px;
+    position: fixed;
+}
+
+#create_rapport #create_provenance{
+    width: 52%;
+    font-size: 15px;
+    padding: 5px;
+    left: 1270px;
+    top: 880px;
+    position: fixed;
+}
+
+#create_rapport label{
+    width: 52%;
+    font-size: 15px;
+    padding: 5px;
+    left: 1160px;
+    top: 923px;
+    position: fixed;
+    color: black;
+    font-size: 20px;
+}
+
+#create_rapport #create_confidentiel{    
+    width: 52%;
+    font-size: 15px;
+    padding: 5px;
+    left: 1175px;
+    top: 930px;
+    position: fixed;
+}
+
+#create_rapport #create_signature{    
+    width: 52%;
+    font-size: 15px;
+    padding: 5px;
+    left: 1160px;
+    top: 764px;
+    position: fixed;
+}
+
+#create_rapport #submit{
+    width: 24%;
+    font-size: 16px;
+    padding: 5px;
+    left: 1330px;
+    top: 954px;
+    position: fixed;
+}
+
+#create_rapport #close{
+    width: 24%;
+    font-size: 16px;
+    padding: 5px;
+    left: 1530px;
+    top: 280px;
+    position: fixed;
+}
+
+/*/////////////////////////////////////////*/
+/*        Fin du Placement des champs      */
+/*/////////////////////////////////////////*/
 #buttonlist {
     padding: 12px;
     display: block;
@@ -63,14 +207,6 @@ body {
     border: 5px solid black;
     border-radius: 1.5rem;
     font-size: 30px;
-}
-
-
-#create_rapport #create_date {
-    margin-bottom: 5px;
-    width: 100%;
-    font-size: 15px;
-    padding: 12px;
 }
 
 #signature {
